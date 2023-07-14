@@ -1,0 +1,532 @@
+:root{
+    --sm: 'Poppins', sans-serif;
+    --md: 'Roboto', sans-serif;
+    --lg: 'Ysabeau', sans-serif;
+    --red:rgb(209, 20, 20);
+    --Blue:#106eea;
+}
+
+.navbar{
+    position:fixed;
+    width: 100%;
+    box-shadow: #000 0px 20px 30px -30px;
+    z-index: 9999;
+}
+.navbar ul li .nav-link{
+font-size: 16px;
+
+}
+.navbar .navbar-brand{
+font-size: 30px;
+font-family:"Poppins",sans-serif;
+font-weight: 600;
+}
+
+.text-danger{
+color: rgb(209, 20, 20) !important;
+}
+.navbar .nav-item .active{
+    color: var(--Blue) !important ;
+}
+.navbar .nav-item .active .line{
+        height: 2px;
+        width: 100% !important;
+        background-color: #106eea;
+}
+.navbar .nav-link{
+    font-weight: 700 !important;
+    color:#000;
+    transition: all .9s;
+    padding-right: 20px !important;
+}
+.navbar .nav-link:hover{
+    color: var(--Blue) !important;
+}
+.line{
+height: 2px;
+width: 0%;
+background-color:#106eea ;
+transition: all 0.6s;
+}
+.active .line{
+height: 2px;
+width: 100%;
+background-color:#106eea ;
+}
+.nav-item:hover .line{
+    height: 2px;
+    width: 100%;
+    background-color: #106eea;
+}
+
+/* End Navpar  */
+
+
+.section-home .img-home{
+background-image: url("../BizLand/hero-bg.jpg");
+background-size:cover;
+height: 80vh;
+}
+.section-home .img-home h1{
+font-size: 50px;
+font-weight: bold;
+font-family: "Poppins",sans-serif;
+}
+.section-home .img-home .span{
+font-size: 50px;
+font-weight: bold;
+color: #106eea;
+font-family: "Poppins", sans-serif;
+}
+.section-home .img-home p{
+font-size: 20px;
+font-weight: 500;
+color: #000000a4;
+font-family: "Poppins", sans-serif;
+}
+.section-home .img-home .btn{
+width: 160px;
+height: 40px;
+background-color: #106eea;
+color: rgb(255, 255, 255);
+border-radius: 4px;
+font-weight: bold;
+margin-right: 10px;
+}
+.section-home .img-home i{
+border: 3px solid #106eea;
+padding: 7px;
+border-radius: 50%;
+color: #106eea;
+}
+.section-home .img-home .span1{
+padding-left: 5px;
+font-weight: 600;
+font-size: 15px;
+}
+
+
+/* about  */
+
+.section2 .about{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: #000 0px 0px 80px -50px;
+    border-radius: 20px;
+    transition: all 0.6s;
+}
+.section2 .about:hover{
+   background-color: #106eea;
+   color: bisque;
+}
+.section2 .about i{
+  font-size: 38px;
+  color: #106eea;
+  transition: all 0.6s;
+}
+.section2 .about:hover i{
+  color: #ffffff;
+}
+.section2 .about h3{
+font-size: 20px;
+padding: 15px 0px;
+font-weight: bold;
+}
+
+.belal-p{
+    font-weight: 600;
+    
+}
+
+.section3{
+   background-color: #eef3fa;
+}
+
+.section .heading h5{
+    color: #106eea;
+    background-color: #e7f1fd;
+    width: max-content;
+    margin: auto;
+    font-size:13px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+.section .heading h3{
+font-size: 30px;
+font-weight: bold;
+color: #000000b7;
+}
+.section .heading span{
+font-size: 30px;
+font-weight: bold;
+color: #106eea;
+}
+.section .heading p{
+font-size: 17px;
+font-weight: bold;
+color: #0000008e;
+}
+.section3 .about-text .p1{
+font-size: 25px;
+font-weight: bold;
+color: #000000e0;
+}
+.section3 .about-text .p2{
+font-style: italic;
+font-weight: 500;
+color: #000000a2;
+font-size: 17px;
+}
+.section3 .about-text i{
+font-size: 23px;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 50%;
+color: #106eea;
+}
+.about-text ul{
+    list-style: none;
+}
+
+/* NUMBERS  */
+
+.section5 .number i{
+font-size: 25px;
+padding: 15px;
+background-color: #106eea;
+color: #eef3fa;
+border-radius: 50%;
+}
+.section5 .number h5{
+font-size: 40px;
+color: #011735;
+}
+
+
+/* SERVICES  */
+
+.section .services-icon{
+    padding: 70px 30px;
+    border:solid 1px #106eea28;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+.section .services-icon:hover{
+   border-color: #00000005;
+}
+.section .services-icon:hover h4{
+    color: #106eea;
+    border-color:#106eea;
+}
+
+.section .services-icon i{
+    font-size: 25px;
+    color: #106eea;
+    background-color: #e7f1fd;
+    padding: 15px;
+    border: solid 1px #106eea07 ;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+.section .services-icon:hover i{
+    border-color: #106eea;
+}
+.section .services-icon h4{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 0;
+  transition: all 0.7s;
+}
+.section .services-icon p{
+ font-size: 14px;
+}
+
+
+/* Carsour  */
+
+.section8 .img-carsour{
+    background-image: url(../BizLand/testimonials-bg.jpg);
+    height: 75vh;
+    background-size:100% 100% ;
+}
+ .section8 .layer{
+    width: 100%;
+    height: 100%;
+    color: #000000e7;
+    position: absolute;
+    z-index:2;
+ }
+
+.section8 .img-carsour img{
+  width: 100px !important;
+  border-radius: 50%;
+}
+.layer .carousel{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+}
+
+
+/* GALLARY  */
+
+
+.section .container .gallery-click .active{
+    font-size: 16px;
+    font-weight:500 ;
+    color: #000000;
+    text-decoration: none;
+}
+.section .container .gallery-click span a{
+    font-size: 16px;
+    font-weight:500 ;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+.section .container .gallery-click span a:hover{
+ color: #050505;  
+}
+
+
+.gallery-img{
+position: relative;
+}
+.gallery-img .card{
+position: absolute;
+top: 65%;
+z-index:5;
+width: 90%;
+height: 85px;
+opacity: 0;
+transition: all 0.7s;
+display: none;
+}
+.gallery-img img:hover .card{
+opacity: 1 !important;
+}
+.card .container{
+    position: relative;
+}
+.gallery-img .card i{
+position: absolute;
+left: 80%;
+bottom: 50%;
+transition: all 0.7s;
+}
+.gallery-img .card i:hover{
+color: #106eea;
+}
+.gallery-img .card .icon-link{
+position: absolute;
+left: 90%;
+bottom: 50%;
+}
+
+/* PERSONE  */
+
+.section .container .persone img{
+    width: 100% ;
+}
+.section .container .persone p{
+font-size: 13px;
+color: #00000079;
+}
+.section .container .persone h5{
+font-size: 20px;
+font-weight: bold;
+color: #000000;
+font-family: var(--lg);
+}
+.section .container .persone .card{
+position: relative;
+}
+.section .container .persone .card .persone-icon i{
+background-color: #106eea;
+padding: 8px;
+color: #ffffff;
+font-size: 18px;
+border-radius: 4px;
+opacity: 0;
+transition: all 0.7s;
+margin-right: 5px;
+}
+.section .container .persone .card .persone-icon i:hover{
+opacity: 1;
+}
+.section .container .persone .card:hover i{
+opacity: 0.6;
+}
+.section .container .persone .card .persone-icon{
+position: absolute;
+left: 20%;
+top: 55%;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .section .container .persone .card .persone-icon i {
+            background-color: #106eea;
+            padding: 8px;
+            color: #ffffff;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+.section .container .persone .card .persone-icon {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+}
+@media screen and (max-width:778px) {
+    .section .container .persone .card .persone-icon i {
+            background-color: #106eea;
+            padding: 15px;
+            color: #ffffff;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+.section .container .persone .card .persone-icon {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}
+}
+@media screen and (max-width:500px) {
+    .section .container .persone .card .persone-icon i {
+            background-color: #106eea;
+            padding: 10px;
+            color: #ffffff;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+.section .container .persone .card .persone-icon {
+    position: absolute;
+    left: 17%;
+    top: 55%;
+}
+}
+@media screen and (max-width:233px) {
+    .section .container .persone .card .persone-icon i {
+            background-color: #106eea;
+            padding: 10px;
+            color: #ffffff;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+.section .container .persone .card .persone-icon {
+    position: absolute;
+    left: 20%;
+    top: 55%;
+}
+}
+@media screen and (max-width:1115px) {
+    .section .container .persone .card .persone-icon i {
+            background-color: #106eea;
+            padding: 10px;
+            color: #ffffff;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+.section .container .persone .card .persone-icon {
+    position: absolute;
+    left: 16%;
+    top: 55%;
+}
+}
+
+
+/* pricing */
+
+
+.section .container .pricing {
+border-radius: 5px;
+}
+.section .container .pricing h5{
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000a4;
+}
+.section .container .pricing .card-body{
+    background-color: #d6cccc3a;
+}
+.section .container .pricing .month{
+   color: #00000091;
+   font-weight: 400;
+}
+.section .container .pricing .zero{
+   font-size: 40px;
+   color: #106eea;
+   font-weight: bold;
+}
+.section .container .pricing h6{
+padding-bottom: 10px;
+font-size: 14px;
+color: #00000093;
+}
+.section .container .pricing button{
+width: 125px;
+height: 39px;
+margin: auto;
+background-color: #106eea;
+color: #ffffff;
+font-weight: bold;
+border-radius: 5px;
+border: none;
+}
+.section .container .pricing .card{
+position: relative;
+overflow: hidden;
+}
+.section .container .pricing .card .tape{
+position: absolute;
+top: 20px;
+right: -30px;
+transform:rotate(45deg);
+width: 120px;
+}
+
+/* Qestion  */
+
+.bg-danger{
+    background-color: #e7f1fd69 !important;
+}
+.section .container .ask-p {
+    width: 80%;
+    margin: auto;
+}
+.section .container .ask-p p{
+font-size: 20px;
+transition: all .7s;
+}
+.section .container .ask-p p:hover{
+color: #106eea;
+}
+.section .container .ask-p p span{
+transform: rotate(45deg);
+}
+
+/* Contact  */
+
+.section .container .contact{
+    background-color: #ffffff15;
+   
+}
+
+.section .container .contact i{
+font-size: 24px;
+padding: 15px 15px;
+border:dotted #106eea59 2px;
+border-radius: 50%;
+color: #106eea;
+
+}
+
+/* Map  */
+
+.section .container .information .input{
+width: 40% !important;
+height: 40px !important;
+}
